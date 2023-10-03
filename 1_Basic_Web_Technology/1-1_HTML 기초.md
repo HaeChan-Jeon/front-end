@@ -27,13 +27,13 @@
 
 * `<!DOCTYPE html>` : 문서 타입 선언으로, 현재 문서가 HTML5 문서임을 나타낸다.
 
-  * 문서 타입 선언(DOCTYPE)은 **HTML 문서의 첫 줄에 위치**해 있으며, 웹 브라우저<sup id="a1">[1](#footnote1)</sup>에게 해당 문서가 사용하는 **HTML 버전**을 알려주는 역할을 수행한다. 즉, 웹 브라우저는 이 DOCTYPE 선언을 통해 문서를 **올바르게 렌더링**<sup id="a1">[2](#footnote2)</sup>하는 방법을 알 수 있다.
+  * 문서 타입 선언(DOCTYPE)은 **HTML 문서의 첫 줄에 위치**해 있으며, 웹 브라우저<sup id="a1">[1](#footnote1)</sup>에게 해당 문서가 사용하는 **HTML 버전**을 알려주는 역할을 수행한다. 즉, 웹 브라우저는 이 DOCTYPE 선언을 통해 문서를 **올바르게 렌더링**<sup id="a2">[2](#footnote2)</sup>하는 방법을 알 수 있다.
   
-  * HTML은 이전 버전의 HTML에서 여러 가지 **새로운 기능, API(Application Programming Interface)<sup id="a1">[3](#footnote3)</sup> 및 동작을 도입**하여 웹 개발자들이 더 다양하고, 강력한 웹 사이트와 어플리케이션을 만들 수 있도록 한 HTML의 최신 버전이다.
+  * HTML은 이전 버전의 HTML에서 여러 가지 **새로운 기능, API(Application Programming Interface)<sup id="a3">[3](#footnote3)</sup> 및 동작을 도입**하여 웹 개발자들이 더 다양하고, 강력한 웹 사이트와 어플리케이션을 만들 수 있도록 한 HTML의 최신 버전이다.
 
 * `<html>` : HTML 문서의 시작과 끝을 나타내는 태그(Tag)이다.
 
-  * 태그(tag)는 HTML에서 요소를 정의하고, 문서의 구조와 컨텐츠를 **마크업**(Markup)<sup id="a1">[4](#footnote4)</sup>하기 위해 사용되는 꺾쇠 괄호(<>)로 둘러싸인 **키워드 또는 식별자**이다.
+  * 태그(tag)는 HTML에서 요소를 정의하고, 문서의 구조와 컨텐츠를 **마크업**(Markup)<sup id="a4">[4](#footnote4)</sup>하기 위해 사용되는 꺾쇠 괄호(<>)로 둘러싸인 **키워드 또는 식별자**이다.
 
 * `<head>` : 웹 페이지의 **메타 정보, CSS 스타일, 외부 파일 링크 등**의 정보를 담고 있다.
 
@@ -101,8 +101,8 @@
 
 <b id="footnote1">1. </b> 웹 브라우저는 Google Chrome, Microsoft Edge와 같이 인터넷을 통해 웹 페이지를 검색하고, 표시하며, 탐색할 수 있게 해주는 소프트웨어 응용 프로그램을 의미한다. [↩](#a1)
 <br>
-<b id="footnote2">2. </b> HTML, CSS 및 자바스크립트와 같은 웹 기술을 해석하여 사용자에게 웹 페이지의 시각적 표현을 제공한다. [↩](#a1)
+<b id="footnote2">2. </b> HTML, CSS 및 자바스크립트와 같은 웹 기술을 해석하여 사용자에게 웹 페이지의 시각적 표현을 제공한다. [↩](#a2)
 <br>
-<b id="footnote3">3. </b> API(Application Programming Interface)는 소프트웨어 어플리케이션들이 서로 상호작용하고 통신하기 위한 정의된 규약(서로 지키도록 정한 규칙) 세트를 의미한다. [↩](#a1)
+<b id="footnote3">3. </b> API(Application Programming Interface)는 소프트웨어 어플리케이션들이 서로 상호작용하고 통신하기 위한 정의된 규약(서로 지키도록 정한 규칙) 세트를 의미한다. [↩](#a3)
 <br>
-<b id="footnote4">4. </b> 마크업(Markup)은 텍스트에 메타데이터(Metadata, 데이터를 설명하기 위한 데이터)를 추가하여 그 구조나 표현을 설명하는 태그 또는 기호를 사용하는 것을 의미한다. [↩](#a1)
+<b id="footnote4">4. </b> 마크업(Markup)은 텍스트에 메타데이터(Metadata, 데이터를 설명하기 위한 데이터)를 추가하여 그 구조나 표현을 설명하는 태그 또는 기호를 사용하는 것을 의미한다. [↩](#a4)
