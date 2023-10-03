@@ -1,4 +1,4 @@
-### HTML 기초
+# HTML 기초
 
 * HTML(HyperText Markup Language)은 웹 페이지를 구조화하고 의미를 부여하는 기본적인 웹 기술이다. HTML은 여러 요소(Elements)로 구성되며, 이러한 요소들은 웹 페이지에서 다양한 콘텐츠(텍스트, 이미지, 링크 등)를 표현한다. HTML 기초를 이해하면 웹 페이지의 기본 구조를 이해하고, 간단한 웹사이트를 만들 수 있게 된다.
 
@@ -21,8 +21,8 @@
 ```
 
 <p align="center">
-  <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/ac5a1dbb-1ec2-477e-8606-9ec826948bf9" alt="HTML 기초 예시(1)"/>
-    HTML 기초 예시(1)
+  <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/ac5a1dbb-1ec2-477e-8606-9ec826948bf9" alt="HTML 기초 예시"/>
+    HTML 기초 예시
 </p>
 
 * `<!DOCTYPE html>` : 문서 타입 선언으로, 현재 문서가 HTML5 문서임을 나타낸다.
@@ -71,21 +71,38 @@
 ```
 
 <p align="center">
-  <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/909e410c-88d7-4899-ab3f-1f043539bac6" alt="HTML 기초 예시(2)"/>
-    HTML 기초 예시(2)
+  <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/909e410c-88d7-4899-ab3f-1f043539bac6" alt="CSS 스타일 예시"/>
+    CSS 스타일 예시
 </p>
 
 * `<title>` : 웹 브라우저의 탭에 표시되는 웹 페이지의 제목을 정의한다.
+
 * `<body>` : 웹 페이지의 주요 콘텐츠를 담는 부분으로, 텍스트, 이미지, 링크, 리스트 등 다양한 요소를 포함할 수 있다.
+
+## 주요 HTML 태그
+
+* `<h1>, <h2>, ..., <h6>` : 제목 태그로, 숫자가 작을수록 더 큰 제목을 나타낸다.
+
+* `<p>` : 문단(Paragraph)을 정의한다.
+
+* `<a>` : 하이퍼링크를 생성한다. 예: `<a href="https://www.example.com">Visit our website</a>`
+
+* `<img>` : 이미지를 삽입한다. 예: `<img src="image.jpg" alt="Description of image">`
+
+* `<ul>` : 번호 없는 리스트를 생성하고, `<li>` 태그로 각 항목을 정의한다.
+
+* `<ol>` : 번호 있는 리스트를 생성하고, `<li>` 태그로 각 항목을 정의한다.
+
+* `<table>` : 표를 생성한다. `<tr>`로 행을, `<th>`로 헤더 셀을, `<td>`로 데이터 셀을 정의한다.
 
 ***
 
-### 각주
+# 각주
 
-<b id="footnote1">1</b> 웹 브라우저는 Google Chrome, Microsoft Edge와 같이 인터넷을 통해 웹 페이지를 검색하고, 표시하며, 탐색할 수 있게 해주는 소프트웨어 응용 프로그램을 의미한다. [↩](#a1)
+<b id="footnote1">1. </b> 웹 브라우저는 Google Chrome, Microsoft Edge와 같이 인터넷을 통해 웹 페이지를 검색하고, 표시하며, 탐색할 수 있게 해주는 소프트웨어 응용 프로그램을 의미한다. [↩](#a1)
 <br>
-<b id="footnote1">2</b> HTML, CSS 및 자바스크립트와 같은 웹 기술을 해석하여 사용자에게 웹 페이지의 시각적 표현을 제공한다. [↩](#a1)
+<b id="footnote1">2. </b> HTML, CSS 및 자바스크립트와 같은 웹 기술을 해석하여 사용자에게 웹 페이지의 시각적 표현을 제공한다. [↩](#a1)
 <br>
-<b id="footnote1">3</b> API(Application Programming Interface)는 소프트웨어 어플리케이션들이 서로 상호작용하고 통신하기 위한 정의된 규약(서로 지키도록 정한 규칙) 세트를 의미한다. [↩](#a1)
+<b id="footnote1">3. </b> API(Application Programming Interface)는 소프트웨어 어플리케이션들이 서로 상호작용하고 통신하기 위한 정의된 규약(서로 지키도록 정한 규칙) 세트를 의미한다. [↩](#a1)
 <br>
-<b id="footnote1">4</b> 마크업(Markup)은 텍스트에 메타데이터(Metadata, 데이터를 설명하기 위한 데이터)를 추가하여 그 구조나 표현을 설명하는 태그 또는 기호를 사용하는 것을 의미한. [↩](#a1)
+<b id="footnote1">4. </b> 마크업(Markup)은 텍스트에 메타데이터(Metadata, 데이터를 설명하기 위한 데이터)를 추가하여 그 구조나 표현을 설명하는 태그 또는 기호를 사용하는 것을 의미한다. [↩](#a1)
