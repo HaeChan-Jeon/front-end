@@ -2,6 +2,10 @@
 
 * HTML(HyperText Markup Language)은 웹 페이지를 구조화하고 의미를 부여하는 기본적인 웹 기술이다. HTML은 여러 요소(Elements)로 구성되며, 이러한 요소들은 웹 페이지에서 다양한 콘텐츠(텍스트, 이미지, 링크 등)를 표현한다. HTML 기초를 이해하면 웹 페이지의 기본 구조를 이해하고, 간단한 웹사이트를 만들 수 있게 된다.
 
+<p align="center">
+ <img src = "https://github.com/HaeChan-Jeon/front-end/assets/146603024/af96f47b-1a23-48ce-8cb7-699449859cb7", height="500x", width="500px">
+</p>
+
 ***
 
 ## HTML 기본 구조
