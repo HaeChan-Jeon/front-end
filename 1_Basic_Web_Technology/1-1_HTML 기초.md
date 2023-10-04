@@ -95,6 +95,62 @@
 
 * `<table>` : **표**를 생성한다. `<tr>`로 행을, `<th>`로 **헤더 셀**을, `<td>`로 **데이터 셀**을 정의한다.
 
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Example</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <h2>Subheading</h2>
+
+    <p>This is a paragraph explaining what my website is about. It provides information and resources on various topics.</p>
+
+    <a href="https://www.example.com">Visit Example Website</a>
+
+    <img src="image.jpg" alt="A beautiful scenery">
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <h3>Table Example</h3>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
+
+<p align="center">
+  <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/273e45ca-ac7d-4454-95c7-48578b9d5b93" alt="HTML 주요 태그 예시"/>
+    HTML 주요 태그 예시
+</p>
+
 ***
 
 # 각주
