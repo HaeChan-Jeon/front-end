@@ -26,7 +26,7 @@
 
 <p align="center">
   <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/ac5a1dbb-1ec2-477e-8606-9ec826948bf9" alt="HTML 기초 예시"/>
-    - HTML 기초 예시 -
+    HTML 기본 구조조 예시
 </p>
 
 * `<!DOCTYPE html>` : 문서 타입 선언으로, 현재 문서가 HTML5 문서임을 나타낸다.
@@ -76,7 +76,7 @@
 
 <p align="center">
   <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/909e410c-88d7-4899-ab3f-1f043539bac6" alt="CSS 스타일 예시"/>
-    - CSS 스타일 예시 -
+    CSS 스타일 예시
 </p>
 
 * `<title>` : 웹 브라우저의 탭에 표시되는 웹 페이지의 제목을 정의한다.
@@ -154,7 +154,7 @@
 
 <p align="center">
   <img src="https://github.com/HaeChan-Jeon/front-end/assets/146603024/273e45ca-ac7d-4454-95c7-48578b9d5b93" alt="HTML 주요 태그 예시"/>
-    - HTML 주요 태그 예시 -
+    HTML 주요 태그 예시
 </p>
 
 * `<meta name="viewport" content="width=device-width, initial-scale=1.0">`는 웹 페이지가 모바일 기기나 다양한 화면 크기의 기기에서 어떻게 보여질지를 제어하는 HTML 태그이다. 이 태그는 웹 페이지가 반응형 웹 디자인(Responsive Web Design)<sup id="a5">[5](#footnote5)</sup>을 사용하여 다양한 화면 크기에 적절하게 보여지도록 돕는다.
