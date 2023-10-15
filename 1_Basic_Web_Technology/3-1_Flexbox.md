@@ -25,7 +25,6 @@ align-self: 아이템 스스로의 교차 축 정렬을 설정합니다.
 예시 코드
 
 ```css
-Copy code
 /* Container */
 .flex-container {
   display: flex;
@@ -44,7 +43,6 @@ Copy code
 
 
 ```html
-Copy code
 <div class="flex-container">
   <div class="flex-item">Item 1</div>
   <div class="flex-item">Item 2</div>
