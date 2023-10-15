@@ -42,8 +42,8 @@ Copy code
 }
 ```
 
-```
-html
+
+```html
 Copy code
 <div class="flex-container">
   <div class="flex-item">Item 1</div>
