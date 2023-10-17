@@ -1,0 +1,65 @@
+1. CSS 트랜지션 (Transitions)
+CSS 트랜지션은 요소의 속성 값을 한 상태에서 다른 상태로 부드럽게 변경하도록 합니다. 주로 호버(hover) 이벤트나 다른 유사한 상호 작용에 반응하여 요소의 스타일을 부드럽게 변경할 때 사용됩니다.
+
+기본 구조:
+
+css
+Copy code
+element {
+  transition-property: property;
+  transition-duration: time;
+  transition-timing-function: timing-function;
+  transition-delay: delay;
+}
+예제:
+
+css
+Copy code
+button {
+  background-color: blue;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: red;
+}
+위의 예제에서 버튼의 배경색은 호버 상태에서 파란색에서 빨간색으로 0.5초 동안 부드럽게 변경됩니다.
+
+2. CSS 애니메이션 (Animations)
+CSS 애니메이션은 키 프레임을 사용하여 요소의 스타일을 시간에 따라 여러 단계로 변경할 수 있게 해줍니다.
+
+기본 구조:
+
+css
+Copy code
+@keyframes animation-name {
+  from { property: start-value; }
+  to { property: end-value; }
+}
+
+element {
+  animation-name: animation-name;
+  animation-duration: time;
+  animation-timing-function: timing-function;
+  animation-delay: delay;
+  animation-iteration-count: count;
+  animation-direction: direction;
+}
+예제:
+
+css
+Copy code
+@keyframes slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(100px); }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation: slide 2s infinite alternate;
+}
+위의 예제에서 <div> 요소는 왼쪽에서 오른쪽으로 100px만큼 움직이며, 2초 동안 이동 후 원래 위치로 돌아옵니다. 이 애니메이션은 무한히 반복됩니다.
+
+CSS 애니메이션과 트랜지션은 웹 페이지에 동적 효과를 추가하는 데 매우 유용하며, 사용자 경험을 향상시키는 데 큰 역할을 합니다. 이러한 기능을 잘 활용하면 웹 페이지의 인터랙티브한 요소를 향상시킬 수 있습니다.
