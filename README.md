@@ -14,4 +14,4 @@ The 'front-end' repository is a collection of articles about studying the basics
 
   * [**1. HTML 기초**](https://github.com/HaeChan-Jeon/front-end/blob/main/1_Basic_Web_Technology/1-1_HTML%20%EA%B8%B0%EC%B4%88.md) (HTML Basics)
 
-***
+****
